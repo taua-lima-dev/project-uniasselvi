@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./src/css/reset.css" />
+  <link rel="stylesheet" href="./src/css/style.css" />
+  <link rel="stylesheet" href="./src/css/responsive.css" />
+  <link rel="stylesheet" href="./src/css/search.css" />
+
+  <script src="./src/js/modal.js" defer></script>
+  <script src="./src/js/search.js" defer></script>
+
+  <title>Uniasselvi</title>
+</head>
+
+<body>
+
+  <div class="bg-video">
+    <video class="video" src="./src/video/uniasselvi-video.mp4" type="video/mp4" autoplay muted></video>
+  </div>
+
+  <header class="header">
+    <a href="index.html"><img class="logo" src="./src/img/logo.png" alt="Logo Uniasselvi" /></a>
+    <nav>
+      <a href="https://portal.uniasselvi.com.br/">Home</a>
+      <a href="#" id="btn-about">Sobre</a>
+      <a href="calculator.html">Calculadora</a>
+    </nav>
+  </header>
+
+  <main class="container">
+      <div class="search-form hidden" id="search">
+        <form  action="https://www.google.com/search" method="GET">
+          <input placeholder="Pesquise no Google" name="" class="input" type="text" autofocus required>
+          <input type="submit" class="submit" value="Pesquisar"></input>
+        </form>
+      </div>
+
+    <div class="modal">
+      <div class="modal-content">
+        <iframe id="trailer" width="640" height="360"
+          src="https://www.youtube.com/embed/lcTEzd3N0Ds?si=BhHuoSF6F_t1kVD9" title="YouTube video player"
+          frameborder="1"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+        <span class="close-modal">X</span>
+      </div>
+    </div>
+    <div class="footer"><a href="https://github.com/taua-lima-dev" class="github" target="_blank">Tauã Lima - 2023</a></div>
+  </main>
+</body>
+
+</html>
