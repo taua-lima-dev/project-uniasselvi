@@ -8,9 +8,10 @@ body {
 }
 
 .header {
+  background-color: #1c1c1c;
   display:flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 7px;
   max-width: 1440px;
   margin: 0 auto;
 }
